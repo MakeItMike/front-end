@@ -13,7 +13,6 @@ body, html {
     width: 100%;
     height: 100%;
     margin: 0;
-    
 }
 
 main {
@@ -106,13 +105,33 @@ main {
 /* SECTION Page 3 */
 .page-body-3 {
     position:    absolute;
-    top:         220%;
+    top:         250%;
     height:      100%;
     width:       100%;
     color:       white;
-    background: grey;
+    background:  black;
     font-family: var(--page-font);
     color:       var(--text-color-3);
+}
+
+.contact-title {
+    font-size: 3em;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.contact-info {
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.email {
+    text-decoration: none;
+    color: var(--text-color-3)
+}
+
+.email:hover {
+    text-decoration: underline;
 }
 
 /*———————————————————————————————————————*/
@@ -128,9 +147,17 @@ main {
 #intro-element {
     position:  fixed;
     left:      50%;
-    top:       50%;
-    transform: translate(-50%, -50%);
-    animation: fadeIn 4s;
+    top:       20%;
+    transform: translate(-50%);
+}
+
+#company-info {
+    position:    absolute;
+    top:         42%;
+    width:       100%;
+    text-align:  center;
+    color:       var(--text-color-3);
+    font-family: var(--page-font);
 }
 
 #image-circle {
@@ -142,8 +169,9 @@ main {
     filter: brightness(0.8);
 }
 
-#company-info {
-    width: 100%;
+#company-slogan {
+    text-decoration: underline;
+    font-size: 1.5em;
 }
 
 #company-name {
@@ -157,20 +185,20 @@ main {
 
 /* SECTION Page 2 */
 #about-element {
-    position: absolute;
-    left: 50%;
+    position:  absolute;
+    left:      50%;
     transform: translate(-50%);
-    width:  80%;
-    height: 100%;
+    width:     80%;
+    height:    100%;
 }
 
 /* SECTION Page 3 */
 #contact-element {
-    position: absolute;
-    left: 50%;
+    position:  absolute;
+    left:      50%;
     transform: translate(-50%);
-    width: 80%;
-    height: 100%;
+    width:     80%;
+    height:    100%;
 }
 
 /*———————————————————————————————————————*/

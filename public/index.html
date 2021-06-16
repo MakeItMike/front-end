@@ -4,27 +4,84 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    
+    <title>Front End</title>
     <link rel="stylesheet" href="style.css">
-    <script src="scripts.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script type="text/javascript" src="script.js"></script>
+
 </head>
 <body>
     <main>
-        <section class="page-body">
-            <div id="nav-element">
-                <ul>
-                    <li>
-                        <a class="custom-links" href="#"><h1>Home</h1></a>
-                    </li>
+        <section class="page-body" id="home">
+            <div class="topnav" id="nav-element">
+                
+                <a href="#home"><h1>Home</h1></a>
 
-                    <li>
-                        <a class="custom-links" href="#"><h1>About</h1></a>
-                    </li>
+                <a href="#about"><h1>About</h1></a>
 
-                    <li>
-                        <a class="custom-links" href="#"><h1>Contact</h1></a>
-                    </li>
-                </ul>
+                <a href="#contact"><h1>Contact</h1></a>
+                
+                <a href="javascript:void(0);" class="icon" onclick="bars()">
+                    <i class="fa fa-bars"></i>
+                </a>
+            </div>
+
+            <div id="intro-element">
+                <div id="image-circle">
+                    <img src="images/atomic-green.png" id="image">
+                </div>
+
+                <div id="company-info">
+                    <h1 id="company-name">Atomica</h1>
+                    <h1 id="company-slogan">Providing a better future through better energy.</h1>
+                </div>
+            </div>
+        </section>
+
+        <section class="page-body-2" id="about">
+            <div id="about-element">
+                <h1 class="about-title">Our History</h1>
+                <p class="about-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc non arcu posuere, pellentesque dui vel, vulputate sem.
+                    Integer vulputate neque sit amet venenatis egestas.
+                    Donec non felis non felis mollis gravida.
+                    Suspendisse feugiat, odio quis ullamcorper malesuada, nulla ante consequat lectus, in placerat sem neque faucibus libero.
+                    Nulla dapibus lacinia efficitur. Pellentesque nec molestie felis.
+                    Quisque rhoncus enim libero, ac ullamcorper diam mattis et. Nunc fringilla tristique tortor ut dapibus.
+                    Nunc dolor lectus, interdum sit amet finibus id, pretium eget quam. Fusce sed arcu sed lectus iaculis rhoncus. Nunc et lacinia velit, non placerat lorem.
+                </p>
+
+                <h1 class="about-title" id="about-title-2">Our Goals</h1>
+                <p class="about-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc non arcu posuere, pellentesque dui vel, vulputate sem.
+                    Integer vulputate neque sit amet venenatis egestas.
+                    Donec non felis non felis mollis gravida.
+                    Suspendisse feugiat, odio quis ullamcorper malesuada, nulla ante consequat lectus, in placerat sem neque faucibus libero.
+                    Nulla dapibus lacinia efficitur. Pellentesque nec molestie felis.
+                    Quisque rhoncus enim libero, ac ullamcorper diam mattis et. Nunc fringilla tristique tortor ut dapibus.
+                    Nunc dolor lectus, interdum sit amet finibus id, pretium eget quam. Fusce sed arcu sed lectus iaculis rhoncus. Nunc et lacinia velit, non placerat lorem.
+                </p>
+
+                <h1 class="about-title" id="about-title-3">Our Achievements</h1>
+                <p class="about-info">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nunc non arcu posuere, pellentesque dui vel, vulputate sem.
+                    Integer vulputate neque sit amet venenatis egestas.
+                    Donec non felis non felis mollis gravida.
+                    Suspendisse feugiat, odio quis ullamcorper malesuada, nulla ante consequat lectus, in placerat sem neque faucibus libero.
+                    Nulla dapibus lacinia efficitur. Pellentesque nec molestie felis.
+                    Quisque rhoncus enim libero, ac ullamcorper diam mattis et. Nunc fringilla tristique tortor ut dapibus.
+                    Nunc dolor lectus, interdum sit amet finibus id, pretium eget quam. Fusce sed arcu sed lectus iaculis rhoncus. Nunc et lacinia velit, non placerat lorem.
+                </p>
+            </div>
+        </section>
+
+        <section class="page-body-3" id="contact">
+            <div id="contact-element">
+
             </div>
         </section>
     </main>

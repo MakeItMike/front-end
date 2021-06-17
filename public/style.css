@@ -19,6 +19,13 @@ main {
     animation: fadeIn 2s;
 }
 
+hr {
+    position: absolute;
+    width:    100%;
+    border:   0.2em solid var(--text-color-3);
+    opacity: 0;
+}
+
 /*———————————————————————————————————————*/
 /* SECTION Variables                     */
 /*———————————————————————————————————————*/
@@ -79,10 +86,18 @@ main {
     display: none;
 }
 
+.reactor-images {
+    position:      fixed;
+    width:         30em;
+    height:        15em;
+    border-radius: 1em;
+    animation:     fadeIn 4s;
+}
+
 /* SECTION Page 2 */
 .page-body-2 {
     position:    absolute;
-    top:         100%;
+    top:         60em;
     height:      100%;
     width:       100%;
     color:       white;
@@ -105,7 +120,7 @@ main {
 /* SECTION Page 3 */
 .page-body-3 {
     position:    absolute;
-    top:         250%;
+    top:         135em;
     height:      100%;
     width:       100%;
     color:       white;
@@ -138,6 +153,14 @@ main {
 /* SECTION Id's                          */
 /*———————————————————————————————————————*/
 
+#hr-1 {
+    top: 50em;
+}
+
+#hr-2 {
+    top: 130em;
+}
+
 /* SECTION Page 1 */
 #nav-element {
     position: absolute;
@@ -147,13 +170,13 @@ main {
 #intro-element {
     position:  fixed;
     left:      50%;
-    top:       20%;
+    top:       10em;
     transform: translate(-50%);
 }
 
 #company-info {
     position:    absolute;
-    top:         42%;
+    top:         22.5em;
     width:       100%;
     text-align:  center;
     color:       var(--text-color-3);
@@ -183,6 +206,21 @@ main {
     user-select: none;
 }
 
+#reactor-image-element {
+    width: 100%;
+    min-width: 80%;
+}
+
+#reactor-image-1 {
+    top: 10em;
+    left: 1.5em;
+}
+
+#reactor-image-2 {
+    top: 10em;
+    right: 1.5em;
+}
+
 /* SECTION Page 2 */
 #about-element {
     position:  absolute;
@@ -190,6 +228,10 @@ main {
     transform: translate(-50%);
     width:     80%;
     height:    100%;
+}
+
+#company-info {
+    position: fixed;
 }
 
 /* SECTION Page 3 */
